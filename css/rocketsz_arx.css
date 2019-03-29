@@ -976,6 +976,12 @@ nav.products-title-nav .title-nav .pro-tit-nav2 .pro-sub.active a:after {
 .elastislide-wrapper nav span:hover {
     background-color: #00A99D;
 }
+.elastislide-list a {
+    pointer-events: none;
+}
+.elastislide-list a:hover {
+    cursor: pointer;
+}
 .elastislide-carousel ul li a {
     width: calc(100% - 6px);
     border-radius: 4px;
